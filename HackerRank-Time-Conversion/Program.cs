@@ -15,11 +15,10 @@ namespace HackerRank_Time_Conversion
             if (conversionSuccess)
             {
                 //If true then it will grab our out variable of 'time' convert it to a string.
-                return time.ToString("hh:mm:ss");
+                return time.ToString("HH:mm:ss");
             }
             
             return "";
-      
         }
         static void Main(string[] args)
         {

@@ -5,6 +5,11 @@ namespace HackerRank_Time_Conversion
 {
     class Program
     {
+        static string TimeConversion(string s)
+        {
+
+      
+        }
         static void Main(string[] args)
         {
             TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
